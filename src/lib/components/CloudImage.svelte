@@ -10,7 +10,9 @@
 <style>
   .cloud-wrapper {
     background: white;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     padding: 48px;
     mask-image: 
@@ -101,7 +103,7 @@
   
   img {
     max-width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: contain;
     display: block;
     margin: 0;
